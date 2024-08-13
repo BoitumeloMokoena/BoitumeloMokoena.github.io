@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Boitumelo Mokoena - Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
@@ -13,7 +14,7 @@
     <header>
         <div class="header-container">
             <h1>Boitumelo Mokoena</h1>
-            <p>Aspiring Software Developer | Behavioral Science Enthusiast</p>
+            <p>Aspiring Software Developer</p>
             <nav>
                 <ul>
                     <li><a href="#about">About Me</a></li>
@@ -29,38 +30,85 @@
     <section id="about">
         <div class="about-container">
             <h2>About Me</h2>
-            <p>I am an aspiring software developer with a foundation in behavioral science. I leverage insights from behavioral studies to enhance user-centric software solutions. Committed to merging technology and psychology for impactful and intuitive user experiences. Excited to contribute to the ever-evolving tech landscape. Let's innovate together!</p>
+            <p>I am Boitumelo Mokoena, an aspiring software developer with a passion for blending behavioral science with cutting-edge technology. My journey began in behavioral studies, where I developed a deep understanding of human behavior and decision-making. Today, I channel that knowledge into creating user-centric software solutions that are both intuitive and impactful.</p>
+            <p>With a strong foundation in programming and a creative approach to problem-solving, I am committed to building tools that not only meet technical needs but also resonate with users on a psychological level. Whether it's through developing mobile apps, web applications, or UI/UX design, I am driven by the desire to innovate and make technology more accessible and enjoyable for everyone.</p>
+            <p>Beyond coding, I am a lifelong learner, constantly seeking new challenges and opportunities to grow. Let's work together to create something extraordinary!</p>
         </div>
     </section>
 
     <section id="skills">
         <div class="skills-container">
-            <h2>Technical Skills</h2>
-            <ul>
-                <li>Programming Languages: Java, Python, Dart</li>
-                <li>Mobile Application Development: Flutter, React Native</li>
-                <li>Web Development: HTML, CSS, JavaScript, Node.js</li>
-                <li>Database Management: SQL, NoSQL</li>
-                <li>Version Control: Git, GitHub</li>
-                <li>CI/CD: GitHub Templates</li>
-                <li>Cloud Services: Firebase</li>
-                <li>UI/UX Design: Figma, Miro</li>
-            </ul>
+            <h2 class="skills-heading">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <i class="fas fa-code"></i>
+                    <p>Programming Languages</p>
+                    <span>Java, Python, Dart</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <p>Mobile Application Development</p>
+                    <span>Flutter, React Native</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-laptop-code"></i>
+                    <p>Web Development</p>
+                    <span>HTML, CSS, JavaScript, Node.js</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-database"></i>
+                    <p>Database Management</p>
+                    <span>SQL, NoSQL</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-code-branch"></i>
+                    <p>Version Control</p>
+                    <span>Git, GitHub</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-sync-alt"></i>
+                    <p>CI/CD</p>
+                    <span>GitHub Templates</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-cloud"></i>
+                    <p>Cloud Services</p>
+                    <span>Firebase</span>
+                </div>
+                <div class="skill-item">
+                    <i class="fas fa-pencil-ruler"></i>
+                    <p>UI/UX Design</p>
+                    <span>Figma, Miro</span>
+                </div>
+            </div>
         </div>
     </section>
-
+    
     <section id="projects">
         <div class="projects-container">
             <h2>Projects</h2>
-            <div class="project-item">
-                <h3>Project 1: WeShare</h3>
-                <p>WeShare is a social expense tracker web application designed to help users track and share expenses in a collaborative way.</p>
+            <div class="projects-grid">
+                <div class="project-item">
+                    <h3>WeShare</h3>
+                    <img src="images/weshare.png" alt="WeShare Project Screenshot">
+                    <p>WeShare is a social expense tracker web application designed to help users track and share expenses in a collaborative way. <a href="https://gitlab.com/your-repo-link" target="_blank">View on GitLab</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>Robot World</h3>
+                    <img src="images/robot.png" alt="Robot World Project Screenshot">
+                    <p>Robot World is a Java-based project that simulates a virtual environment where robots interact with each other and complete tasks autonomously. <a href="https://gitlab.com/your-repo-link" target="_blank">View on GitLab</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>Lift App</h3>
+                    <img src="images/lift.png" alt="Lift App Project Screenshot">
+                    <p>Lift App is a Flutter mobile application designed to connect users with carpooling options in their area, promoting eco-friendly transportation. <a href="https://gitlab.com/your-repo-link" target="_blank">View on GitLab</a></p>
+                </div>
+                <div class="project-item">
+                    <h3>Company Portal</h3>
+                    <img src="images/portal.png" alt="Company Portal Project Screenshot">
+                    <p>Company Portal is a Flutter-based application that allows companies to manage internal communications, resources, and employee engagement efficiently. <a href="https://gitlab.com/your-repo-link" target="_blank">View on GitLab</a></p>
+                </div>
             </div>
-            <div class="project-item">
-                <h3>Project 2: Vulavula Learning App</h3>
-                <p>A language learning app designed to help South African children learn their mother tongue through engaging games and stories.</p>
-            </div>
-            <!-- Add more projects as needed -->
         </div>
     </section>
 
@@ -78,8 +126,16 @@
     <section id="contact">
         <div class="contact-container">
             <h2>Contact</h2>
-            <p>Email: <a href="mailto:mokoenaboitumelo71@gmail.com">mokoenaboitumelo71@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/boitumelo-mokoena-1a8065240" target="_blank">Boitumelo Mokoena</a></p>
+            <p>
+                <a href="mailto:mokoenaboitumelo71@gmail.com">
+                    <img src="images/email icon.png" alt="Email Icon" class="contact-icon"> mokoenaboitumelo71@gmail.com
+                </a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/boitumelo-mokoena-1a8065240" target="_blank">
+                    <img src="images/lk iron.png" alt="LinkedIn Icon" class="contact-icon"> Boitumelo Mokoena
+                </a>
+            </p>
         </div>
     </section>
 
